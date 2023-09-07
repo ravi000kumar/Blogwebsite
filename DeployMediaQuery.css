@@ -1,0 +1,342 @@
+/*----------- ---------Media Query------------------ */
+/* around 480px, 768px, 1024px, and 1200px, but these can vary based on your design */
+@media screen and (max-width: 480px) {
+    .header-div {
+        /* border: 1px solid red; */
+        overflow: hidden;
+        height: 100px;
+        width: 100%;
+    }
+
+    .writingTests-div button {
+        display: none;
+    }
+
+    .writingTests-div {
+        height: 40vh;
+        overflow-y: scroll;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 7px;
+    }
+
+    nav ul li {
+        font-size: 14px;
+        padding: 0px 3px;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        color: white;
+        padding: 3px 4px;
+    }
+
+    /* ----------Background Image -------- */
+    .testReactWith-Jest-Div {
+        height: 50vw;
+        width: 80%;
+    }
+
+    .main-test-React-Jest-Container h5 {
+        padding: 5px 9px;
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .design-hone {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .paraOne {
+        margin-top: 9px;
+        font-size: 8px;
+    }
+
+    .main-test-React-Jest-Container h4 {
+        font-size: 14px;
+        color: white;
+        font-weight: 120;
+        margin-top: 10px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .main-test-React-Jest-Container h6 {
+        text-align: left;
+        font-weight: 110;
+        font-size: 8px;
+        margin-top: 10px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .main-test-React-Jest-Container {
+        height: 120vh;
+        width: 90%;
+        overflow-y: scroll;
+    }
+
+    /* ---media Query in Divs-------  */
+    .relatedPosts-Container {
+        margin-top: 50%;
+        width: 100%;
+    }
+
+    .relatedPosts-Container #relatedPosts {
+        margin: 5px 10px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .relatedPosts-Container .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reactClean-Code-div {
+        height: 40vh;
+        width: 95%;
+        /* border: 1px solid white; */
+        overflow: hidden;
+    }
+
+    /* background Image One  */
+    .backGround-Image-reactCleanCode,
+    .backGround-Image-Second,
+    .backGround-Image-Third,
+    .backGround-Image-Fourth,
+    .backGround-Image-Fifth,
+    .backGround-Image-Sixth,
+    .backGround-Image-Load-More-One,
+    .backGround-Image-Load-More-Two {
+        height: 25vh;
+        width: 100%;
+    }
+
+
+    .reactCleanCode-Text-Div {
+        height: 20vh;
+    }
+
+    .reactCleanCode-Text-Div h3 {
+        font-size: 12px;
+    }
+
+    .reactCleanCode-Text-Div p {
+        font-size: 9px;
+    }
+
+    .reactCleanCode-Text-Div h5 {
+        margin-top: 0px;
+        padding: 5px 8px;
+        font-size: 9px;
+    }
+
+    /* -----------Second-Flex---------- */
+    .Second-Flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* <!-- ----------load-More-Flex----------------- --> */
+    .load-More-Flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ----------buttonLoad More--------  */
+    #loadButton {
+        padding: 10px 19px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:414px) {
+    .main-test-React-Jest-Container {
+        /* border: 1px solid white; */
+        height: 90vh;
+        width: 90%;
+    }
+
+    .writingTests-div {
+        height: 40vh;
+        overflow-y: scroll;
+    }
+
+    .reactCleanCode-Text-Div h5 {
+        margin-top: 0px;
+        padding: 5px 8px;
+        font-size: 9px;
+    }
+
+    .relatedPosts-Container {
+        margin-top: 0;
+        /* border: 1px solid white; */
+        width: 100%;
+    }
+
+    .writingTests-div button {
+        display: none;
+    }
+}
+
+/* @media minwidth768px and max width 820px---------- */
+@media screen and (min-width:768px) and (max-width:820px) {
+    .testReactWith-Jest-Div {
+        height: 30vh;
+    }
+
+    .main-test-React-Jest-Container {
+        /* border: 1px solid red; */
+        height: 50vh;
+        overflow-y: scroll;
+    }
+
+    .writingTests-div {
+        height: 40vh;
+        overflow-y: scroll;
+    }
+
+    /* .relatedPosts-Container{
+            border: 1px solid red;
+        } */
+    .flex,
+    .Second-Flex,
+    .load-More-Flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .reactClean-Code-div {
+        width: 60%;
+        height: 35vh;
+        overflow: hidden;
+    }
+
+    .reactCleanCode-Text-Div {
+        height: 20vh;
+    }
+
+    /* background Image One  */
+    .backGround-Image-reactCleanCode,
+    .backGround-Image-Second,
+    .backGround-Image-Third,
+    .backGround-Image-Fourth,
+    .backGround-Image-Fifth,
+    .backGround-Image-Sixth,
+    .backGround-Image-Load-More-One,
+    .backGround-Image-Load-More-Two {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .reactCleanCode-Text-Div h3 {
+        font-size: 15px;
+    }
+
+    .reactCleanCode-Text-Div p {
+        font-size: 12px;
+    }
+
+    .reactCleanCode-Text-Div h5 {
+        margin-top: 0px;
+        padding: 9px 12px;
+        font-size: 13px;
+    }
+
+    .writingTests-div button {
+        display: none;
+    }
+}
+
+/* @medai minwidth 820px and max width 920px======= */
+@media screen and (min-width:820px) and (max-width:912px) {
+    .testReactWith-Jest-Div {
+        height: 35vh;
+    }
+
+    .relatedPosts-Container {
+        /* border: 1px solid red; */
+        height: 350vh;
+    }
+
+    .main-test-React-Jest-Container {
+        /* border: 1px solid red; */
+        height: 50vh;
+        overflow-y: scroll;
+    }
+
+    .flex,
+    .Second-Flex,
+    .load-More-Flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .writingTests-div {
+        height: 40vh;
+        overflow-y: scroll;
+    }
+
+    .writingTests-div button {
+        display: none;
+    }
+
+    .reactClean-Code-div {
+        width: 60%;
+        height: 35vh;
+        overflow: hidden;
+    }
+
+    .reactCleanCode-Text-Div {
+        height: 20vh;
+    }
+
+    /* background Image One  */
+    .backGround-Image-reactCleanCode,
+    .backGround-Image-Second,
+    .backGround-Image-Third,
+    .backGround-Image-Fourth,
+    .backGround-Image-Fifth,
+    .backGround-Image-Sixth,
+    .backGround-Image-Load-More-One,
+    .backGround-Image-Load-More-Two {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .reactCleanCode-Text-Div h3 {
+        font-size: 19px;
+    }
+
+    .reactCleanCode-Text-Div p {
+        font-size: 17px;
+    }
+
+    .reactCleanCode-Text-Div h5 {
+        margin-top: 0px;
+        padding: 9px 12px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (width=1024px) {
+    .writingTests-div button {
+        display: none;
+    }
+}

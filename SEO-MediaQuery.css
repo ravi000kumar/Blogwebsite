@@ -1,0 +1,271 @@
+/*----------- ---------Media Query------------------ */
+/* around 480px, 768px, 1024px, and 1200px, but these can vary based on your design */
+@media screen and (max-width: 480px) {
+    .header-div {
+        /* border: 1px solid red; */
+        overflow: hidden;
+        height: 100px;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 7px;
+    }
+
+    nav ul li {
+        font-size: 14px;
+        padding: 0px 3px;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        color: white;
+        padding: 3px 4px;
+    }
+
+    /* ----------Background Image -------- */
+    .testReactWith-Jest-Div {
+        height: 50vw;
+        width: 80%;
+    }
+
+    .main-test-React-Jest-Container h5 {
+        padding: 5px 9px;
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .design-hone {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .paraOne {
+        margin-top: 9px;
+        font-size: 8px;
+    }
+
+    .main-test-React-Jest-Container h4 {
+        font-size: 14px;
+        color: white;
+        font-weight: 120;
+        margin-top: 10px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .main-test-React-Jest-Container h6 {
+        text-align: left;
+        font-weight: 110;
+        font-size: 8px;
+        margin-top: 10px;
+        color: white;
+        font-family: Arial;
+    }
+
+    .main-test-React-Jest-Container {
+        height: 120vh;
+        width: 90%;
+        overflow-y: scroll;
+    }
+
+    /* ---media Query in Divs-------  */
+    .relatedPosts-Container {
+        margin-top: 50%;
+        width: 100%;
+    }
+
+    .relatedPosts-Container #relatedPosts {
+        margin: 5px 10px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .relatedPosts-Container .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reactClean-Code-div {
+        height: 40vh;
+        width: 95%;
+        /* border: 1px solid white; */
+        overflow: hidden;
+    }
+
+    /* background Image One  */
+    .backGround-Image-reactCleanCode,
+    .backGround-Image-Second,
+    .backGround-Image-Third,
+    .backGround-Image-Fourth,
+    .backGround-Image-Fifth,
+    .backGround-Image-Sixth,
+    .backGround-Image-Load-More-One,
+    .backGround-Image-Load-More-Two {
+        height: 25vh;
+        width: 100%;
+    }
+
+
+    .reactCleanCode-Text-Div {
+        height: 20vh;
+    }
+
+    .reactCleanCode-Text-Div h3 {
+        font-size: 12px;
+    }
+
+    .reactCleanCode-Text-Div p {
+        font-size: 9px;
+    }
+
+    .reactCleanCode-Text-Div h5 {
+        padding: 8px 12px;
+        font-size: 9px;
+    }
+
+    /* -----------Second-Flex---------- */
+    .Second-Flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* <!-- ----------load-More-Flex----------------- --> */
+    .load-More-Flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ----------buttonLoad More--------  */
+    #loadButton {
+        padding: 10px 19px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:414px) {
+    .main-test-React-Jest-Container {
+        /* border: 1px solid white; */
+        height: 90vh;
+        width: 90%;
+    }
+
+    .relatedPosts-Container {
+        margin-top: 0;
+        /* border: 1px solid white; */
+        width: 100%;
+    }
+}
+
+/*--------- @media mi width 768px and max Width 820px-------- */
+@media screen and (min-width:768px) and (max-width:991px) {
+    .testReactWith-Jest-Div {
+        height: 70vw;
+        width: 100%;
+    }
+    .main-test-React-Jest-Container h5{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+      .design-hone {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 10px;
+    }
+    
+   .paraOne {
+        margin: 9px;
+        font-size: 17px;
+        margin-bottom: 29px;
+    }
+        .main-test-React-Jest-Container {
+        height: 80vh;
+        width: 95%;
+        overflow-y: scroll;
+    }
+    .main-test-React-Jest-Container h4 {
+        font-size: 21px;
+        color: white;
+        font-weight: 120;
+        margin-top: 30px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .main-test-React-Jest-Container h6 {
+        text-align: left;
+        font-weight: 10;
+        font-size: 16px;
+        margin-top: 17px;
+        color: white;
+        font-family: Arial;
+    }
+    /* ------main-test-Jest-container Finish------  */
+    /* ---------related Post Container ========== */
+      .relatedPosts-Container {
+        height: 390vh;
+        width: 100%;
+    }
+    .relatedPosts-Container #relatedPosts {
+        margin: 5px 10px;
+        font-size: 33px;
+        font-weight: 200;
+    }
+    .flex,.load-More-Flex,.Second-Flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reactClean-Code-div{
+        /* border: 1px solid red; */
+        height: 40vh;
+        width: 65%;
+    }
+    .reactCleanCode-Text-Div{
+        /* border: 1px solid red; */
+        height: 20vh;
+        width: 80%;
+    }
+    .reactCleanCode-Text-Div h3{
+        font-size: 18px;
+    }
+    .reactCleanCode-Text-Div p{
+        font-size: 13px;
+    }
+    .reactCleanCode-Text-Div h5{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    /* background Image One  */
+
+    .backGround-Image-reactCleanCode,
+    .backGround-Image-Second,
+    .backGround-Image-Third,
+    .backGround-Image-Fourth,
+    .backGround-Image-Fifth,
+    .backGround-Image-Sixth,
+    .backGround-Image-Load-More-One,
+    .backGround-Image-Load-More-Two {
+        /* border: 1px solid red; */
+        height: 20vh;
+        width: 100%;
+    }
+    .backGround-Image-reactCleanCode{
+        /* border: 1px solid red; */
+        height: 20vh;
+        width: 100%;
+       background-image: url('../landing-page-images/img10.webp');
+       background-size: contain;
+    }   
+}

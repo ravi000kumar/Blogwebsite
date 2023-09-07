@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1f2028;
+    font-family: 'poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header-div {
+    height: 180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #64748b;
+    transition: 0.5s;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.active {
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+nav ul li .hoverEffect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    /* Change this to your desired border color */
+    transition: width 0.3s ease;
+    /* Transition duration and easing */
+}
+
+#hide-or-Show {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    display: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li .hoverEffect:hover::after {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+.name h1 {
+    font-size: 1.7rem;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* ------------------mainReactClean-Code-PageOne-------------- */
+.mainReactClean-Code-PageOne {
+    /* border: 1px solid white; */
+    height: 410vh;
+    width: 80%;
+    margin: auto;
+}
+
+.backGroundImage-ReactClean-Code {
+    background-image: url('https://notion-blog-wildcatco.vercel.app/_next/image?url=https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fe4ffa5ae-6e12-4965-b78d-119dc8e8904d%252Fbob-brewer-zRqZOyG78wM-unsplash_2.jpg%3Ftable%3Dblock%26id%3D7245e7c8-be46-48c6-b38d-f4aa200ed3d9%26cache%3Dv2&w=1920&q=75');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+
+/* suspense-err-Boundary */
+.suspense-err-Boundary {
+    margin: 20px auto;
+    height: 60vh;
+    padding: 10px 15px;
+    width: 70%;
+}
+
+.H-five h5 {
+    padding: 15px 28px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+    margin: 10px 10px;
+}
+
+.H-five h5:hover {
+    background: #485464;
+}
+
+.suspense-err-Boundary h1 {
+    color: white;
+    font-size: 3vw;
+}
+
+.suspense-err-Boundary h3 {
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 15px;
+}
+
+/* HomePage-tsxCode-Div */
+.HomePage-tsxCode-Div {
+    margin: 20px auto;
+    height: 40vh;
+    width: 70%;
+    border-radius: 7px;
+    color: #cccccc;
+    border: 1px solid #312d2d;
+    /* background: #2d2d2d; */
+}
+
+.HomePage-tsxCode-Div p {
+    font-size: 1.5vw;
+    margin: 10px 16px;
+    text-align: center;
+}
+
+.HomePage-tsxCode-Div p span {
+    color: rgb(151, 29, 151);
+}
+
+.HomePage-tsxCode-Div h5 {
+    margin-top: 15px;
+    font-size: 1.5vw;
+    padding: 10px;
+}
+
+.HomePage-tsxCode-Div h5 span {
+    color: rgb(151, 29, 151);
+}
+
+/* regerencesPage-textCode-Div */
+.regerencesPage-textCode-Div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 70%;
+    border-radius: 7px;
+    color: #cccccc;
+    border: 1px solid #312d2d;
+    /* background: #2d2d2d; */
+}
+
+.regerencesPage-textCode-Div li {
+    margin: 10px;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.regerencesPage-textCode-Div h1 {
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+.regerencesPage-textCode-Div p {
+    text-decoration: underline;
+}
+
+/*--------------------- relatedPosts-Container -------------------*/
+.relatedPosts-Container {
+    margin: 20px auto;
+    height: 180vh;
+    width: 100%;
+    border-radius: 7px;
+    color: #cccccc;
+}
+
+.relatedPosts-Container #relatedPosts {
+    margin: 10px 15px;
+    font-size: 2.3vw;
+    font-weight: 700;
+}
+
+.reactClean-Code-div {
+    height: 55vh;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 18px 12px 2px rgba(2, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.reactClean-Code-div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.backGround-Image-reactCleanCode {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img5.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Second {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img3.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Third {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img8.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Fourth {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img7.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Fifth {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/when-to-use.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Sixth {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img11.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.reactCleanCode-Text-Div {
+    margin: auto;
+    width: 90%;
+    height: 24vh;
+}
+
+.reactCleanCode-Text-Div h3 {
+    margin: 10px;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.reactCleanCode-Text-Div p {
+    font-size: 1vw;
+    margin: 10px 10px;
+}
+
+.reactCleanCode-Text-Div h5 {
+    margin: 5px;
+    padding: 10px 15px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+    font-size: 1vw;
+}
+
+.reactCleanCode-Text-Div h5:hover {
+    background: #485464;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Second-Flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+/* ---------creating Load More Section------ */
+.load-More-Flex {
+    display: flex;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.backGround-Image-Load-More-One {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/img4.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.backGround-Image-Load-More-Two {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../landing-page-images/serverComponents.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-load-More {
+    margin: 40px;
+}
+
+.btn-load-More button {
+    color: white;
+    padding: 10px 30px;
+    background: rgb(186, 7, 7);
+    font-weight: 300;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn-load-More button:hover {
+    background: red;
+}

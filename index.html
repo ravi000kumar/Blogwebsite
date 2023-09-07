@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Main-index.css">
+    <!-- link media query css/  -->
+    <link rel="stylesheet" href="mediaQuery.css">
+    <title>Landing Page </title>
+</head>
+
+<body>
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1> CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="./index.html" class="active">Blog</a></li>
+                    <li><a href="./AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="./ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- Main Body section   -->
+    <section>
+        <div class="main-body-div">
+            <div class="posts-or-topics">
+                <div class="fa-add-icons-or-inputTag" id="designInputField">
+                    <i class="fa-solid fa-magnifying-glass" id="designIcon"></i>
+                    <input type="text" id="filter_users" oninput="handleInput()" placeholder="Search Posts">
+                    <span id="hide-or-Show">&times;</span>
+                </div>
+            </div>
+            <div class="search-by-topics search-by-topics" id="main-div">
+                <div class="flex-h-p">
+                    <h4>Search by Topics </h4>
+                    <p>clear All </p>
+                </div>
+                <div class="small-hFive-div filterButton">
+                    <h5>Angular.js</h5>
+                    <h5>Clean Code</h5>
+                    <h5>Deployment</h5>
+                    <h5>NestJS</h5>
+                </div>
+                <div class="small-second-H-div filterButton ">
+                    <h5>Next.js</h5>
+                    <h5>React</h5>
+                    <h5>SEO</h5>
+                    <h5>Test </h5>
+                    <h5>Typescript</h5>
+                </div>
+                <div class="small-Third-H-div  filterButton" id="users-list">
+                    <h5>Vercel</h5>
+                    <h5>Vue.js</h5>
+                </div>
+            </div>
+            <!------------------------------------ -->
+            <!---Starting ONe row -->
+            <div class="Blog-images-div-One"> <!--It is a One Row (One Row Equal to Three Images)-->
+                <div class="react-clean-code hideProducts"> <!--this is a Border Of three Divs-->
+                    <a href="./cleanCodeFolderOne/cleanCode.html">
+                        <div class="react-back-ground-image"><!-- Background Image --> </div>
+                        <div class="react-clean-Text" id="hide ">
+                            <h1>비동기 데이터 패칭의 로딩, 에러 상태 분리하기(with... <span style="display: none;">)</span> </h1>
+                            <p>2023-08-21</p>
+                            <div class="H-five">
+                                <h5>React</h5>
+                                <h5>Clean Code </h5>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <div class="react-clean-code hideProducts"><!--this is a Border Of three Divs-->
+                <a href="./Image-TestFolder/img-test.html">
+                    <div class="react-Second-Bground-image"><!-- Background Image --> </div>
+                    <div class="react-clean-Second-Text">
+                        <h1>Image test </h1>
+                        <p>2023-08-21</p>
+                        <div class="H-five-second">
+                            <h5>React</h5>
+                            <h5>Clean Code </h5>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <div class="react-clean-code hideProducts"> <!--this is a Border Of three Divs-->
+            <a href="./test React with Jest/testReactjest.html">
+                <div class="react-Third-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Third-Text">
+                    <h1>How to test React with Jest </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third">
+                        <h5>React</h5>
+                        <h5>Clean Code </h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        </div>
+        <!---Starting Second  row -->
+        <div class="Blog-images-div-One">
+            <div class="react-clean-code">
+                <a href="./ReactVueAngular/reactVueAngular.html">
+                    <div class="react-Fourth-Bground-image"><!-- Background Image --> </div>
+                    <div class="react-clean-Third-Text">
+                        <h1>React vs Vue vs Angular </h1>
+                        <p>2023-08-21</p>
+                        <div class="H-five-Third" style="display: flex;">
+                            <h5>React</h5>
+                            <h5>Vue.js </h5>
+                            <h5>Angular.js</h5>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./ReactCustom-Hooks/reactCustom-Hook.html">
+                <div class="react-Fifth-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Third-Text">
+                    <h1>React Custom Hooks </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>React</h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./bestPracticesSEOnext.js/SEOpractice.html">
+                <div class="react-Sixth-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Sixth-Text">
+                    <h1>Best Practices for SEO with Next.js </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>Next.js</h5>
+                        <h5>SEO</h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        </div>
+        <!-- ------starting third Row------------- -->
+        <div class="Blog-images-div-One">
+            <a href="./Next.jsVsReact/next.jVsReact.html">
+                <div class="react-clean-code">
+                    <div class="react-Seventh-Bground-image"><!-- Background Image --> </div>
+                    <div class="react-clean-Sixth-Text">
+                        <h1>Next.js vs React: What are the differences? </h1>
+                        <p>2023-08-21</p>
+                        <div class="H-five-Third" style="display: flex;">
+                            <h5>React</h5>
+                            <h5>Next.js</h5>
+                        </div>
+            </a>
+        </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./TypeScriptWithReact.js/TypeScript with React.html">
+                <div class="react-Eighth-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Sixth-Text">
+                    <h1>How to use Typescript with React </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>React</h5>
+                        <h5>Typescript</h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./deployProjectVercel/deployProjectVercel.html">
+                <div class="react-Ninth-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Sixth-Text">
+                    <h1>How to delpoy Next.js project in Vercel </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>Next.js</h5>
+                        <h5>Vercel</h5>
+                        <h5>Deployment</h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        </div>
+        <!-- ------starting Fourth Row------------- -->
+        <div class="Blog-images-div-One">
+            <a href="./imageOptimizationNext.js/imageOptimization.html">
+                <div class="react-clean-code">
+                    <div class="react-Tenth-Bground-image"><!-- Background Image --> </div>
+                    <div class="react-clean-Sixth-Text">
+                        <h1>Image Optimization in Next.js </h1>
+                        <p>2023-08-21</p>
+                        <div class="H-five-Third" style="display: flex;">
+                            <h5>Next.js</h5>
+                        </div>
+            </a>
+        </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./ReactSuspense/reactSuspense.html">
+                <div class="react-Eleventh-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Third-Text">
+                    <h1>React Suspense </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>React </h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        <div class="react-clean-code">
+            <a href="./startedWith-Vue.js/Vuejs.html">
+                <div class="react-Twelth-Bground-image"><!-- Background Image --> </div>
+                <div class="react-clean-Third-Text">
+                    <h1>Getting Started with Vue.js </h1>
+                    <p>2023-08-21</p>
+                    <div class="H-five-Third" style="display: flex;">
+                        <h5>Vue.js</h5>
+                    </div>
+            </a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- ------------Adding JavaScript-------------- -->
+    <script src="Main-index.js"></script>
+</body>
+<!-- ch -->
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------cdn link---------- -->
+    <title>About US Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #1f2028;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* color 
+    
+*/
+
+        .header-div {
+            height: 180px;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav ul li {
+            list-style: none;
+            font-size: 1.3rem;
+            padding: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #64748b;
+            transition: 0.5s;
+            padding-bottom: 3px;
+            position: relative;
+        }
+
+        .active {
+            color: white;
+            border-bottom: 3px solid white;
+            padding-bottom: 3px;
+        }
+
+        nav ul li .hoverEffect::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: white;
+            /* Change this to your desired border color */
+            transition: width 0.3s ease;
+            /* Transition duration and easing */
+        }
+
+        #hide-or-Show {
+            font-size: 2rem;
+            color: white;
+            font-weight: 600;
+            display: none;
+        }
+
+        nav ul li a:hover {
+            color: white;
+        }
+
+        nav ul li .hoverEffect:hover::after {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        .name h1 {
+            font-size: 1.7rem;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        /* ------------------mainReactClean-Code-PageOne-------------- */
+        .ravi-image {
+            /* border: 1px solid red; */
+            margin: 20px auto;
+            height: 220vh;
+            width: 60%;
+            font-family: sans-serif;
+            padding: 10px 25px;
+            border-radius: 10px;
+        }
+
+        .main-flex {
+            margin: auto;
+            display: flex;
+            /* border: 1px solid red; */
+            justify-content: space-between;
+            /* width: /0%; */
+        }
+
+        .footer {
+            /* border: 1px solid white; */
+            height: 150vh;
+            width: 10%;
+            position: sticky;
+            top: 0;
+        }
+
+        .ravi-image p {
+            font-size: 1.3rem;
+            color: #8194ae;
+            font-family: 'Courgette', cursive;
+        }
+
+        .junction {
+            margin-top: 20px;
+        }
+
+        .junction h6 {
+            color: white;
+            font-weight: lighter;
+            font-size: 1.1rem;
+            margin: 5px;
+            text-align: left;
+            font-family: 'Courgette', cursive;
+            
+
+        }
+
+        .ravi-image li {
+            list-style: none;
+            color: white;
+            margin: 10px;
+            font-family: 'Courgette', cursive;
+        }
+
+        .ravi-image li a {
+            text-decoration: underline;
+            color: rgb(111, 0, 215);
+            font-weight: lighter;
+            cursor: pointer;
+        }
+
+        .ravi-image h1 {
+            color: rgb(228, 103, 103);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            font-family: 'Courgette', cursive;
+        }
+
+        .contact-icons {
+            /* border: 1px solid red; */
+            margin: 20px auto;
+            height: 40%;
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        .Mesage {
+            margin: auto;
+            /* height: 20vh; */
+            width: 20%;
+            position: fixed;
+            bottom: 20px;
+        }
+
+        .Mesage img {
+            text-align: center;
+            position: relative;
+            left: 29px;
+        }
+        .bgImage{
+            /* border: 1px solid red; */
+            margin: 20px auto ;
+            height: 40vh;
+            width: 100%;
+            background-image: url('./landing-page-images/img3.webp');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1> CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="./index.html" class="active">Blog</a></li>
+                    <li><a href="./AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="./ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="main-flex">
+            <div class="ravi-image">
+                <h1>About us</h1>
+                <div class="bgImage"> <!-- <img src="" alt=""> --></div>
+                <p>Welcome to [CodersJunction], where passion meets code! I'm Ravi Kumar, the founder of this platform,
+                    and
+                    I'm thrilled to share with you how our coding blog website can be a valuable resource for
+                    individuals
+                    like you.</p>
+                <div class="junction">
+                    <h6> At [CodersJunction], we understand the ever-evolving world of coding, programming languages,
+                        and
+                        technology. Our mission is to simplify complex concepts and provide you with practical insights
+                        that
+                        empower you on your coding journey, whether you're a beginner or an experienced developer.
+                        Here's how our blog website can benefit you:
+                    </h6>
+                </div>
+                <li> 1. Learning Hub: Our blog offers a wide range of Code, articles, and guides on programming
+                    languages, web development, and more. Whether you're looking to grasp the basics
+                    or master advanced techniques, we have you covered.</li>
+                <li> 2. Problem Solving: Stuck on a coding problem or project? Our articles provide step-by-step
+                    solutions,
+                    debugging tips, and best practices to help you overcome challenges effectively.</li>
+                <li>3. Stay Updated: Technology moves fast, and we keep you in the loop with the latest industry trends,
+                    updates, and articles. You'll always be ahead of the curve with our informative content.</li>
+                <li>4. Community: Connect with a [CodersJunction] of like-minded individuals. Share your experiences,
+                    ask
+                    questions, and learn from fellow coders through our interactive forums and comment sections. <a
+                        href="./ContactUs.html">Stay Connected</a> </li>
+                <li>5. Career Growth: Whether you're looking to land your dream job or advance in your current one, our
+                    career-focused articles provide valuable insights into resume building, interview preparation, and
+                    skill
+                    enhancement. <a href="#"> interview preparation.</a></li>
+                <li> 6. Coding Projects: Explore a variety of coding projects and examples to apply your newfound
+                    knowledge
+                    and boost your portfolio <a href="#">Web dev Projects.</a> </li>
+                <li>
+                    Join us at [CodersJunction], and embark on a coding journey filled with knowledge, growth, and a
+                    supportive community. <a href="./ContactUs.html">Connect with us</a> We're here to help you succeed in the coding
+                    world. Together, we'll unlock the
+                    endless possibilities of technology.
+                    Thank you for being a part of our coding family!
+                    Happy coding,
+                    Ravi Kumar
+                    Founder, [CodersJunction]</li>
+            </div>
+            <div class="footer">
+                <div class="contact-icons">
+                    <a href=""><img src="https://img.icons8.com/?size=2x&id=LoL4bFzqmAa0&format=png" width="50px"></a>
+                    <a href=""><img src="https://img.icons8.com/?size=2x&id=MR3dZdlA53te&format=png" width="50px"></a>
+                    <a href=""><img src="https://img.icons8.com/?size=2x&id=xjiWwNFQKxM3&format=png" width="50px"></a>
+                </div>
+                <div class="Mesage">
+                    <a href=""> <img src="https://img.icons8.com/?size=2x&id=D6fq9I7xyv5X&format=png" width="80px"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

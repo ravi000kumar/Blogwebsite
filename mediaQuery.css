@@ -1,0 +1,162 @@
+/*----------- ---------Media Query------------------ */
+/* around 480px, 768px, 1024px, and 1200px, but these can vary based on your design */
+@media screen and (max-width: 480px) {
+    .header-div {
+      height: 100px;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .name h1 {
+      font-size: 14px;
+    }
+  
+    nav ul li {
+      list-style: none;
+      font-size: 13px;
+      padding: 5px 10px;
+    }
+  
+    #designInputField {
+      height: 25px;
+      width: 50%;
+    }
+  
+    .fa-magnifying-glass {
+      font-size: 14.2px;
+      margin: 5px;
+    }
+    .flex-h-p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #filter_users {
+      height: 25px;
+      width: 50%;
+      font-size: 14px;
+    }
+  
+    #hide-or-Show {
+      font-size: 14.2px;
+    }
+  
+    .search-by-topics h5 {
+      margin-top: 5px;
+      padding: 5px 9px;
+      font-size: 9px;
+    }
+  
+    .small-hFive-div,
+    .small-second-H-div,
+    .small-Third-H-div {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 7px;
+    }
+    /* -----------starting main div ---  */
+    .Blog-images-div-One {
+      /* margin-top: 20px; */
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .react-clean-code {
+      height: 50vh;
+      width: 100%;
+      /* margin: 14px; */
+    }
+    .react-clean-code h1 {
+      font-size: 14px;
+    }
+    .react-clean-code p,
+    .react-clean-Third-Text {
+      margin-top: 4px;
+      font-size: 9px;
+    }
+    .react-clean-Third-Text h1 {
+      font-size: 14px;
+    }
+    .react-clean-Third-Text p {
+      font-size: 9px;
+    }
+    .react-clean-Sixth-Text {
+      width: 100%;
+      height: 100%;
+    }
+    /* --------FirstRow - Completed-------------- --- */
+    .react-Third-Bground-image,
+    .react-Fourth-Bground-image,
+    .react-Second-Bground-image,
+    .react-back-ground-image,
+    .react-Fifth-Bground-image,
+    .react-Sixth-Bground-image {
+      height: 30vh;
+      width: 100%;
+    }
+    .react-clean-code {
+      box-shadow: none;
+    }
+    .react-clean-code:hover {
+      transform: none;
+    }
+  }
+  /* --------Making Media Query ----For Medium Devices-------------- */
+  /*----------- 768 pixels to 991 pixels.----------------- */
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    .Blog-images-div-One {
+      display: flex;
+      gap: 50px;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+    }
+    .react-clean-code {
+      height: 50vh;
+      width: 85%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 820px) {
+    .Blog-images-div-One {
+      display: flex;
+      gap: 50px;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+    }
+    .react-clean-code {
+      height: 50vh;
+      width: 95%;
+    }
+  }
+  /* ----------Media Query For Medium devices (921px) ---------- */
+  @media screen and (min-width: 820px) and (max-width: 992px) {
+    .Blog-images-div-One {
+      display: flex;
+      gap: 50px;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+    }
+    .react-clean-code {
+      height: 50vh;
+      width: 97%;
+    }
+  }
+  /* -----@Media For Large Devices 991 to 1200px------ */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .Blog-images-div-One {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      /* border: 1px solid red; */
+    }
+    .react-clean-code {
+      height: 65vh;
+      width: 30%;
+    }
+  }
+  

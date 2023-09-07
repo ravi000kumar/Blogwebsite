@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1f2028;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-div {
+    height: 180px;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #64748b;
+    transition: 0.5s;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+.active {
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+nav ul li .hoverEffect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    /* Change this to your desired border color */
+    transition: width 0.3s ease;
+    /* Transition duration and easing */
+}
+
+#hide-or-Show{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    display: none;
+}
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li .hoverEffect:hover::after {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid darkturquoise; */
+    height: 100%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+.name h1 {
+    font-size: 1.7rem;
+    color: white;
+    padding: 10px 20px;
+}
+
+/*---------------- section one Finish Do Not Cross Laxman Rekha----------- */
+.main-body-div {
+    /* border: 1px solid red; */
+    height: 380vh;
+    width: 90%;
+    margin: auto;
+    font-family: 'poppins', sans-serif;
+}
+
+.fa-add-icons-or-inputTag {
+    border: 2px solid #485464;
+    height: 65px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.fa-magnifying-glass {
+    font-size: 1.2rem;
+    margin: 10px;
+    color: #b9d2f4;
+}
+
+#filter_users {
+    height: 60px;
+    margin: 10px;
+    width: 230px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#filter_users::placeholder {
+    color: #b9d2f4;
+}
+
+/* ----------------------------------------------------. */
+.search-by-topics {
+    margin-top: 38px;
+    font-family: 'poppins', sans-serif;
+}
+
+.search-by-topics h4 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.search-by-topics .flex-h-p {
+    display: flex;
+    gap: 50px;
+}
+
+.flex-h-p p {
+    color: #555f6e;
+    padding: 8px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.search-by-topics h5 {
+    margin-top: 10px;
+    padding: 15px 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+}
+.search-by-topics h5:hover {
+    background: #485464;
+}
+.small-hFive-div,
+.small-second-H-div,
+.small-Third-H-div {
+    display: flex;
+    gap: 30px;
+    margin-top: 9px;
+}   
+/* /-------------------------- */
+.Blog-images-div-One {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.react-clean-code {
+    box-shadow: 0px 18px 12px 2px rgba(2, 0, 0, 0.2);
+    /* border: 1px solid white; */
+    height: 65vh;
+    width: 30%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.react-clean-code:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.react-back-ground-image {
+    height: 35vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-image: url('./landing-page-images/img1.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.react-clean-Text {
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.react-clean-Text p {
+    margin-top: 9px;
+    font-size: 15px;
+    color: #9ca3af;
+}
+
+.H-five {
+    display: flex;
+    gap: 20px;
+}
+
+.H-five h5 {
+    margin-top: 14px;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+}
+
+.H-five h5:hover {
+    background: #485464;
+}
+
+/* ---------------------. */
+.react-Second-Bground-image {
+    height: 35vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-image: url('./landing-page-images/img2.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.react-clean-Second-Text {
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.react-clean-Second-Text h1 {
+    padding: 10px 20px;
+}
+
+.react-clean-Second-Text p {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #9ca3af;
+}
+
+/* Making Button  */
+.H-five-second{
+    position: relative;
+        top: 10px;
+        display: flex;
+        gap: 20px;
+        margin: 8px;
+}
+.H-five-second h5 {
+    padding: 10px 23px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+}
+
+.H-five-second h5:hover {
+    background: #485464;
+}
+
+/* ---- ------------------ */
+.react-Third-Bground-image {
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img3.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.react-clean-Third-Text {
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.react-clean-Third-Text h1 {
+    margin: 15px;
+    font-size: 1.4rem;
+}
+
+.react-clean-Third-Text p {
+    margin: 20px;
+    font-size: 15px;
+    color: #9ca3af;
+}
+
+.H-five-Third h5 {
+    margin: 5px;
+    padding: 15px 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2e3039;
+    transition: 0.5s;
+    /* font-size: 10px; */
+}
+
+.H-five-Third h5:hover {
+    background: #485464;
+}
+/* ----------------<!---Starting secomd row --> */
+.react-Fourth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img4.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* -----------starting Fifth  Div in Second Row */
+.react-Fifth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img5.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+/* starting Sixth Div in second Div  */
+.react-Sixth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img6.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+.react-clean-Sixth-Text{
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 10px; 
+}
+.react-clean-Sixth-Text p {
+    margin: 10px;
+    font-size: 15px;
+    color: #9ca3af;
+}
+/* <!-- ------starting third Row------------- --> */
+.react-Seventh-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img7.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+.react-Eighth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img8.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.react-Ninth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img9.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+}
+.react-Tenth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img10.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+.react-Eleventh-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img11.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+.react-Twelth-Bground-image{
+    height: 35vh;
+    width: 100%;
+    background-image: url('./landing-page-images/img12.webp');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
