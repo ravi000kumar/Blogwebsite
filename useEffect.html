@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When to use “useEffect”?</title>
+    <link rel="stylesheet" href="useEffect.css">
+    <link rel="stylesheet" href="../deployProjectVercel/DeployMediaQuery.css">
+</head>
+
+<body>
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1> CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="../index.html" class="active">Blog</a></li>
+                    <li><a href="../AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="../ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="testReactWith-Jest-Div">
+            <!-- -----Dog BackGroundImage------- -->
+        </div>
+        <div class="main-test-React-Jest-Container">
+            <h5>React</h5>    
+            <h1 class="design-hone">When to use “useEffect”?</h1>
+            <p class="paraOne">This post is written by Ravi</p>
+            <h4>Introduction</h4>
+            <h6>If you're a React developer, you're probably already familiar with the 'useEffect' hook. But do you know when to use it? In this post, we'll discuss three scenarios where 'useEffect' can be particularly useful.
+            </h6>
+            <h4>Reducing Side Effects</h4>
+            <h6>One of the main benefits of using 'useEffect' is that it can help reduce side effects in your code. Side effects are any changes that occur outside of the function, such as modifying the DOM or making API calls. By using 'useEffect', you can make sure that these side effects only occur when certain conditions are met. For example, you might use 'useEffect' to only fetch data from an API when a specific component mounts, rather than fetching data every time the component re-renders.
+            </h6>
+            <h4>Handling Dependencies</h4>
+            <h6> Another scenario where 'useEffect' can be useful is when you need to handle dependencies. When you pass an array of dependencies as the second argument of 'useEffect', React will only re-run the effect if one of the dependencies has changed. This can be particularly useful when you want to avoid unnecessary API calls or other expensive operations. By including only the necessary dependencies, you can ensure that your effect only runs when it needs to.</h6>
+            <h4>Managing Component Lifecycles</h4>
+            <h6>Finally, 'useEffect' can be used to manage component lifecycles. For example, you might use 'useEffect' to set up event listeners or clean up resources when a component un-mounts. This can help prevent memory leaks and ensure that your component is properly cleaned up when it is no longer needed.</h6>
+            <div class="writingTests-div">
+                <button id="SecondCopied">Copied</button>
+                <p style="padding-left: 20px;" id="secondCopiedDiv">import React from 'react'; <br>
+                    import renderer from 'react-test-renderer'; <br> <br>
+                    import MyComponent from './MyComponent'; <br> <br>
+
+                    test('MyComponent renders correctly', () => { <br> <br>
+                    const tree = renderer.create( <br> <br>
+                    (MyComponent).toJSON(); <br> <br>
+                    expect(tree).toMatchSnapshot(); <br>
+                    });
+                </p>
+            </div>
+            <h4>Conclusion</h4>
+            <h6>ISEO is vital for businesses that want to increase their online visibility and reach a wider audience. With Next.js, developers can build high-performance websites that are also optimized for SEO. By implementing server-side rendering, dynamic meta tags, and optimized images, websites built with Next.js can achieve better SEO rankings and reach a larger audience..</h6>
+        </div>
+    </section>
+    <!-- -----------------making Related Post Section --------------------  -->
+    <section>
+        <div class="relatedPosts-Container">
+            <h1 id="relatedPosts">Related Posts</h1>
+            <div class="flex">
+                <div class="reactClean-Code-div">
+                    <a href="../imageOptimizationNext.js/imageOptimization.html">
+                    <div class="backGround-Image-reactCleanCode"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Image Optimization in Next.js</h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 20px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../cleanCodeFolderOne/cleanCode.html">
+                    <div class="backGround-Image-Second"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>비동기 데이터 패칭의 로딩, 에러 상태 분리하기(with.. </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top:0px">React</h5>
+                        <h5>Clean Code </h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../TypeScriptWithReact.js/TypeScript with React.html">
+                    <div class="backGround-Image-Third"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>How to use Typescript with React </h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Typescript</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- --------React CleanCod Flex Two -----------------  -->
+            </div>
+            <div class="Second-Flex">
+                <div class="reactClean-Code-div">
+                    <a href="../deployProjectVercel/deployProjectVercel.html">
+                    <div class="backGround-Image-Fourth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>How to delpoy Next.js Projects in Vercel</h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Next.js</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../useUseEffect/useEffect.html">
+                    <div class="backGround-Image-Fifth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>When to use "useEffect"</h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../ReactSuspense/reactSuspense.html">
+                    <div class="backGround-Image-Sixth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>React Suspense </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <!-- ----------load-More-Flex----------------- -->
+            <div class="btn-load-More" id="DisplayBlock">
+                <center> <button id="loadButton">Load More </button> </center>
+            </div>
+            <div class="load-More-Flex" id='displayBlock'>
+                <div class="reactClean-Code-div">
+                    <a href="../ReactVueAngular/reactVueAngular.html">
+                    <div class="backGround-Image-Load-More-One"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div" style="margin-bottom: 50px;">
+                        <h3>React vs Vue vs Angular </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                        <h5>Vue.js</h5>
+                        <h5>Angular.js</h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div" style="margin-bottom: 50px;">
+                    <a href="../ServerComponents/serverComponent.html">
+                    <div class="backGround-Image-Load-More-Two"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>What is Server Component? </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let Block = document.getElementById('displayBlock').style.display = 'none';
+      btn = document.getElementById('loadButton').addEventListener('click', () => {
+          document.getElementById('displayBlock').style.display = 'block';
+          document.getElementById('displayBlock').style.display = 'flex';
+          document.getElementById('loadButton').style.display = 'none';
+
+      })
+        let second = document.getElementById('secondCopiedDiv');
+        let secondBtn = document.getElementById('SecondCopied');
+        secondBtn.addEventListener('click', () => {
+            SECOND = second.innerHTML;
+            navigator.clipboard.writeText(SECOND);
+            document.getElementById('SecondCopied').style.color = 'white';
+        })
+  </script>
+</body>
+
+</html>

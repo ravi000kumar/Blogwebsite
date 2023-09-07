@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document React Custom Hook</title>
+    <!-- ------------Adding Csss---------------  -->
+    <link rel="stylesheet" href="reactCustom-Hook.css">
+    <link rel="stylesheet" href="../deployProjectVercel/DeployMediaQuery.css">
+</head>
+
+<body>
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1>CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="../index.html" class="active">Blog</a></li>
+                    <li><a href="../AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="../ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="testReactWith-Jest-Div">
+            <!-- -----Dog BackGroundImage------- -->
+        </div>
+        <div class="main-test-React-Jest-Container">
+            <h5>React</h5>
+            <h1 class="design-hone">React Custom Hooks</h1>
+            <p class="paraOne">This post is written by Ravi</p>
+            <h4>Introduction</h4>
+            <h6>React Custom Hooks are a powerful way to reuse stateful logic across components in a clean and efficient
+                way. With Custom Hooks, we can extract and share complex logic between components, reducing code
+                duplication and making our codebase easier to maintain. In this blog post, we will explore the basics of
+                Custom Hooks and provide a code example to demonstrate their power..
+            </h6>
+            <h4>What are Custom Hooks?</h4>
+            <h6>Custom Hooks are a way to reuse stateful logic between components in React. They are Javascript
+                functions that use Hooks like useState and useEffect to manage state and lifecycle events, and can be
+                shared and reused across multiple components. Custom Hooks can be used to extract and abstract complex
+                logic into reusable functions, making our code more modular and easier to test.</h6>
+            <h4>Code Example</h4>
+            <h6> Let's take a look at a simple code example to demonstrate the power of Custom Hooks. In this example,
+                we will create a Custom Hook called useCounter that manages a simple count state and provides methods to
+                increment and decrement the count.h6>
+                <div class="writingTests-div">
+                    <button id="btnCopied">Copied</button> <br>
+                    <p style="padding-left: 20px;" class="paraCopied">
+                        import { useState } from 'react'; <br> <br>
+                        export const useCounter = (initialCount = 0) => { <br>
+                        const [count, setCount] = useState(initialCount); <br> <br>
+
+                        const increment = () => { <br>
+                        setCount(count + 1); <br>
+                        }; <br> <br>
+
+                        const decrement = () => { <br>
+                        setCount(count - 1); <br>
+                        };<br> <br>
+
+                        return { count, increment, decrement }; <br>
+                        }; <br>
+                    </p>
+                </div>
+                <h6>Now that we have created our Custom Hook, we can use it in any component to manage count state and
+                    provide increment and decrement methods. Let's take a look at an example usage in a component..</h6>
+                <div class="writingTests-div" style="height: 46vh;">
+                    <button id="secondbtnCopied">Copied</button> <br>
+                    <p style="padding-left: 20px;" class="secondParaCopied">
+                        import { useCounter } from './useCounter'; <br> <br>
+
+                        const Counter = () => { <br>
+                        const { count, increment, decrement } = useCounter(); <br> <br>
+
+                        return (
+                        onClick={increment}>Increment <br> <br>
+                        onClick={decrement}>Decrement <br> <br>
+                        ); <br>
+                        };
+                    </p>
+                </div>
+                <h6>As you can see, by using our Custom Hook we have extracted the count state and increment/decrement
+                    methods into a reusable function, making our code more modular and easier to maintain.</h6>
+                <h4>Conclusion</h4>
+                <h6>In this blog post, we discussed how to <span>test</span> React components using Jest. We covered the
+                    setup process for Jest and how to write tests using Jest's test function. We also provided a code
+                    example to illustrate the concepts. Testing is an important part of software development, and Jest
+                    makes it easy to test React components. With Jest, we can ensure that our code is working as
+                    expected and catch bugs before they make it into production.</h6>
+        </div>
+    </section>
+    <!-- -----------------making Related Post Section --------------------  -->
+    <section>
+        <div class="relatedPosts-Container">
+            <h1 id="relatedPosts">Related Posts</h1>
+            <div class="flex">
+                <div class="reactClean-Code-div">
+                    <a href="../test React with Jest/testReactjest.html">
+                        <div class="backGround-Image-reactCleanCode"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>How to test React with Jest </h3>
+                            <p>2023-03-13</p>
+                            <h5 style="margin-top: 20px">React</h5>
+                        </div>
+                    </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../cleanCodeFolderOne/cleanCode.html">
+                        <div class="backGround-Image-Second"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>비동기 데이터 패칭의 로딩, 에러 상태 분리하기(with.. </h3>
+                            <p>2023-03-13</p>
+                            <h5 style="margin-top:0px">React</h5>
+                            <h5>Clean Code </h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../TypeScriptWithReact.js/TypeScript with React.html">
+                        <div class="backGround-Image-Third"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>How to use Typescript with React </h3>
+                            <p>2023-03-13</p>
+                            <h5>React</h5>
+                            <h5>Typescript</h5>
+                        </div>
+                    </a>
+                </div>
+                <!-- --------React CleanCod Flex Two -----------------  -->
+            </div>
+            <div class="Second-Flex">
+                <div class="reactClean-Code-div">
+                    <a href="../Next.jsVsReact/next.jVsReact.html">
+                        <div class="backGround-Image-Fourth"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>Next.js vs React: What are the differences?</h3>
+                            <p>2023-03-13</p>
+                            <h5>React</h5>
+                            <h5>Next.js</h5>
+                        </div>
+                    </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../useUseEffect/useEffect.html">
+                        <div class="backGround-Image-Fifth"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>When to use "useEffect" </h3>
+                            <p>2023-03-13</p>
+                            <h5 style="margin-top: 24px">React</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../ReactSuspense/reactSuspense.html">
+                        <div class="backGround-Image-Sixth"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div">
+                            <h3>React Suspense </h3>
+                            <p>2023-03-13</p>
+                            <h5 style="margin-top: 24px">React</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- ----------load-More-Flex----------------- -->
+            <div class="btn-load-More" id="DisplayBlock">
+                <center> <button id="loadButton">Load More </button> </center>
+            </div>
+            <div class="load-More-Flex" id='displayBlock'>
+                <div class="reactClean-Code-div">
+                    <a href="../ReactVueAngular/reactVueAngular.html">
+                        <div class="backGround-Image-Load-More-One"> <!--BackGround Image</div>--> </div>
+                        <div class="reactCleanCode-Text-Div" style="margin-bottom: 50px;">
+                            <h3>React vs Vue vs Angular </h3>
+                            <p>2023-03-13</p>
+                            <h5 style="margin-top: 24px">React</h5>
+                            <h5>Vue.js</h5>
+                            <h5>Angular.js</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="reactClean-Code-div" style="margin-bottom: 50px;">
+                    <a href="../ServerComponents/serverComponent.html">
+                    <div class="backGround-Image-Load-More-Two"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>What is Server Component? </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let Block = document.getElementById('displayBlock').style.display = 'none';
+        btn = document.getElementById('loadButton').addEventListener('click', () => {
+            document.getElementById('displayBlock').style.display = 'block';
+            document.getElementById('displayBlock').style.display = 'flex';
+            document.getElementById('loadButton').style.display = 'none';
+
+        })
+        let paraCopied = document.querySelector('.paraCopied');
+        let Cop = document.getElementById('btnCopied');
+        Cop.addEventListener('click', () => {
+            let Final = paraCopied.innerHTML;
+            navigator.clipboard.writeText(Final);
+            document.getElementById('btnCopied').style.color = 'white';
+        })
+        let secondPara = document.querySelector('.secondParaCopied');
+        let secondBtn = document.getElementById('secondbtnCopied');
+        secondBtn.addEventListener('click', () => {
+            let secondFinal = secondPara.innerHTML;
+            navigator.clipboard.writeText(secondFinal);
+            document.getElementById('secondbtnCopied').style.color = 'white';
+        })
+    </script>
+</body>
+
+</html>

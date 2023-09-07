@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server components</title>
+    <link rel="stylesheet" href="serverCompo.css">
+    <link rel="stylesheet" href="../deployProjectVercel/DeployMediaQuery.css">
+</head>
+
+<body>
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1> CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="../index.html" class="active">Blog</a></li>
+                    <li><a href="../AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="../ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="testReactWith-Jest-Div">
+            <!-- -----Dog BackGroundImage------- -->
+        </div>
+        <div class="main-test-React-Jest-Container">
+            <h5>React</h5>
+            <h5>Next.js</h5>
+            <h1 class="design-hone">What is Server Component?</h1>
+            <p class="paraOne">This post is written by Ravi</p>
+            <h4>Introduction</h4>
+            <h6>Next.js is a popular React-based framework that simplifies server-side rendering for web applications. With the release of Next.js 12, a new feature called Server Components has been introduced. In this blog post, we will discuss what Server Components are and how they can be used to improve the performance of Next.js applications.
+            </h6>
+            <h4>What are Server Components?</h4>
+            <h6>Server Components are a new type of component in Next.js that can be executed on the server-side. Traditional React components are executed on the client-side, which means that the browser must download the component code and execute it to render the component. This can result in slow rendering times, especially for larger applications. Server Components, on the other hand, are executed on the server-side and their output is sent directly to the client. This can significantly improve the performance of web applications, especially for complex components.</h6>
+            <div class="writingTests-div">
+                <button id="btnCopied">Copied</button> <br>
+                <p class="ParaCopied">
+                    // server-component.js 
+                    export default function MyServerComponent({ name }) { <br>
+                      return Hello, {name}! <br>
+                    } <br>
+                    
+                    // index.js
+                    import { serverComponent } from 'next/server' <br> 
+                    const MyServerComponent = serverComponent('./server-component') <br>
+                    
+                    export default function Home() { <br>
+                      return MyServerComponent name="World"  <br>
+                    }
+                </p>
+            </div>
+            <h6>In this example, we create a Server Component called <span> MyServerComponent</span> that takes a  prop and returns a<span>name</span> simple greeting. We then import this component in our <span>index.js</span> file using the  function provided by Next.js. When a user requests the home<span> serverComponent</span> page, Next.js renders the <span> MyServerComponent </span>on the server and sends the output to the client, resulting in faster rendering times and improved user experience..</h6>
+            <h4>Conclusion</h4>
+            <h6>Server Components are a powerful new feature in Next.js that can help developers improve the performance of their web applications. By executing complex components on the server-side, Next.js can reduce the amount of client-side JavaScript that needs to be downloaded and executed, resulting in faster rendering times and improved user experience. If you are building a Next.js application, be sure to explore the possibilities of Server Components and see how they can help you improve the performance of your application.
+            </h6>
+        </div>
+    </section>
+    <!-- -----------------making Related Post Section --------------------  -->
+    <section>
+        <div class="relatedPosts-Container">
+            <h1 id="relatedPosts">Related Posts</h1>
+            <div class="flex">
+                <div class="reactClean-Code-div">
+                    <a href="../imageOptimizationNext.js/imageOptimization.html">
+                    <div class="backGround-Image-reactCleanCode"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Image Optimization in Next.js </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 20px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../test React with Jest/testReactjest.html">
+                    <div class="backGround-Image-Second"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>How to test React with Jest </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top:0px">React</h5>
+                        <h5>Clean Code </h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../bestPracticesSEOnext.js/SEOpractice.html">
+                    <div class="backGround-Image-Third"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Best Practices for SEO with Next.js </h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Typescript</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- --------React CleanCod Flex Two -----------------  -->
+            </div>
+            <div class="Second-Flex">
+                <div class="reactClean-Code-div">
+                    <a href="../Next.jsVsReact/next.jVsReact.html">
+                    <div class="backGround-Image-Fourth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Next.js vs React: What are the differences?</h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Next.js</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../useUseEffect/useEffect.html">
+                    <div class="backGround-Image-Fifth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>When to use "useEffect" </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../cleanCodeFolderOne/cleanCode.html">
+                    <div class="backGround-Image-Sixth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>비동기 데이터 패칭의 로딩, 에러 상태 분리하기(with... </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 0px">React</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        let paraCopied = document.querySelector('.ParaCopied');
+        let Cop = document.getElementById('btnCopied');
+        Cop.addEventListener('click', () => {
+            let Final = paraCopied.innerHTML;
+            let  bgColor = document.getElementById('btnCopied').style.color='white'
+            navigator.clipboard.writeText(Final);
+            // alert('Copied')
+        })
+    </script>
+
+</body>
+
+</html>

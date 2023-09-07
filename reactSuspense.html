@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Suspense</title>
+    <link rel="stylesheet" href="reactSuspense.css">
+    <link rel="stylesheet" href="../deployProjectVercel/DeployMediaQuery.css">
+</head>
+
+<body>
+    <!-- Header  section   -->
+    <section>
+        <div class="header-div">
+            <nav>
+                <div class="name">
+                    <h1> CodersJunction</h1>
+                </div>
+                <ul>
+                    <li><a href="../index.html" class="active">Blog</a></li>
+                    <li><a href="../AboutUs.html" class="hoverEffect">About</a></li>
+                    <li><a href="../ContactUs.html" class="hoverEffect">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="testReactWith-Jest-Div">
+            <!-- -----Dog BackGroundImage------- -->
+        </div>
+        <div class="main-test-React-Jest-Container">
+            <h5>React</h5>
+            <h1 class="design-hone">React Suspense</h1>
+            <p class="paraOne">This post is written by Ravi</p>
+            <h4>What is React Suspense?</h4>
+            <h6>React Suspense is a new feature introduced in React 16.6.0. It allows developers to manage the loading
+                state of components that are fetching data asynchronously. With Suspense, developers can declaratively
+                specify the loading state of a component and handle errors in a more user-friendly way.
+            </h6>
+            <h4>How to Use React Suspense</h4>
+            <h6>To use Suspense in our React application, we need to import it from the React library. We can then wrap
+                our async component with the Suspense component and specify a fallback component to be rendered while
+                the async data is being fetched. Here's an example of how to use Suspense with an async data fetching
+                component:</h6>
+            <div class="writingTests-div">
+                <button id="btnCopied">Copied</button> <br>
+                <p class="ParaCopied">
+                    import React, { Suspense } from 'react'; <br>
+                    import { fetchData } from './api'; <br>
+
+                    const MyComponent = React.lazy(() => import('./MyComponent')); <br>
+
+                    function App() { <br>
+                    return (
+                    ); <br>
+                    } <br>
+                    export default App;
+                </p>
+            </div>
+            <h6>In this example, we're importing the <span> fetchData</span> function from our API and using it to pass
+                data to the <span>MyComponent</span>. The <span>MyComponent</span> is wrapped with the <span> Suspense
+                </span>component, which takes a <span>fallback </span>prop to be rendered while the data is being
+                fetched.</h6>
+            <h4>Conclusion</h4>
+            <h6>Image optimization is essential for improving website performance and providing a better user
+                experience. Next.js makes image optimization easy with its built-in support for image optimization. In
+                this blog post, we discussed image optimization in Next.js and provided a code example. We hope this
+                blog post helps you optimize images in your Next.js projects and improve your website's performance.!
+            </h6>
+        </div>
+    </section>
+    <!-- -----------------making Related Post Section --------------------  -->
+    <section>
+        <div class="relatedPosts-Container">
+            <h1 id="relatedPosts">Related Posts</h1>
+            <div class="flex">
+                <div class="reactClean-Code-div">
+                    <a href="../ReactCustom-Hooks/reactCustom-Hook.html">
+                    <div class="backGround-Image-reactCleanCode"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>React Custom Hook </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 20px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../test React with Jest/testReactjest.html">
+                    <div class="backGround-Image-Second"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>How to test React with Jest </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top:0px">React</h5>
+                        <h5>Clean Code </h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../bestPracticesSEOnext.js/SEOpractice.html">
+                    <div class="backGround-Image-Third"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Best Practices for SEO with Next.js </h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Typescript</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- --------React CleanCod Flex Two -----------------  -->
+            </div>
+            <div class="Second-Flex">
+                <div class="reactClean-Code-div">
+                    <a href="../Next.jsVsReact/next.jVsReact.html">
+                    <div class="backGround-Image-Fourth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>Next.js vs React: What are the differences?</h3>
+                        <p>2023-03-13</p>
+                        <h5>React</h5>
+                        <h5>Next.js</h5>
+                    </div>
+                </a>
+                </div>
+                <!-- ------------ReactClean Code  React With Jest-------- -->
+                <div class="reactClean-Code-div">
+                    <a href="../useUseEffect/useEffect.html">
+                    <div class="backGround-Image-Fifth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>When to use "useEffect" </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 24px">React</h5>
+                    </div>
+                </a>
+                </div>
+                <div class="reactClean-Code-div">
+                    <a href="../cleanCodeFolderOne/cleanCode.html">
+                    <div class="backGround-Image-Sixth"> <!--BackGround Image</div>--> </div>
+                    <div class="reactCleanCode-Text-Div">
+                        <h3>비동기 데이터 패칭의 로딩, 에러 상태 분리하기(with... </h3>
+                        <p>2023-03-13</p>
+                        <h5 style="margin-top: 0px">React</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        let paraCopied = document.querySelector('.ParaCopied');
+        let Cop = document.getElementById('btnCopied');
+        Cop.addEventListener('click', () => {
+            let Final = paraCopied.innerHTML;
+            let  bgColor = document.getElementById('btnCopied').style.color='white'
+            navigator.clipboard.writeText(Final);
+            // alert('Copied')
+        })
+    </script>
+
+</body>
+
+</html>
