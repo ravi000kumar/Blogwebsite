@@ -92,7 +92,7 @@ nav ul {
     margin: 20px auto;
     height: 100vh;
     width: 70%;
-    background-image: url('../landing-page-images/startedNextJSImg.webp');
+    background-image: url('./startedNextJSImg.webp');
     background-size: cover;
 }
 
@@ -226,7 +226,7 @@ span {
 .backGround-Image-reactCleanCode {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img10.webp');
+    background-image: url('./img10.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -235,7 +235,7 @@ span {
 .backGround-Image-Second {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/serverComponents.webp');
+    background-image: url('./serverComponents.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -244,7 +244,7 @@ span {
 .backGround-Image-Third {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img6.webp');
+    background-image: url('./img6.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -253,7 +253,7 @@ span {
 .backGround-Image-Fourth {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img7.webp');
+    background-image: url('./img7.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -262,7 +262,7 @@ span {
 .backGround-Image-Fifth {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img9.webp');
+    background-image: url('./img9.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -271,7 +271,7 @@ span {
 .backGround-Image-Sixth {
     height: 30vh;
     width: 100%;
-    background-image: url('..//landing-page-images/started-WithNext.js');
+    background-image: url('./started-WithNext.js');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -331,7 +331,7 @@ span {
 .backGround-Image-Load-More-One {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img4.webp');
+    background-image: url('./img4.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -340,7 +340,7 @@ span {
 .backGround-Image-Load-More-Two {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/serverComponents.webp');
+    background-image: url('./serverComponents.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
