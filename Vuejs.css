@@ -91,7 +91,7 @@ nav ul {
     margin: 20px auto;
     height: 100vh;
     width: 70%;
-    background-image: url('../landing-page-images/img12.webp');
+    background-image: url('./img12.webp');
     background-size: cover;
 }
 
@@ -227,7 +227,7 @@ span {
 .backGround-Image-reactCleanCode {
     height: 30vh;
     width: 100%;
-    background-image: url('../landing-page-images/img4.webp');
+    background-image: url('./img4.webp');
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
